@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What indicates a brute force or password guessing attempt?",
+    "expected_document": "01_authentication_attacks.md",
+    "expected_topic": "authentication attacks"
+  },
+  {
+    "question": "How do valid account abuse and credential abuse differ from exploiting a vulnerability?",
+    "expected_document": "02_credential_abuse.md",
+    "expected_topic": "credential abuse"
+  },
+  {
+    "question": "What is a warning sign of privilege escalation after accessing a new resource?",
+    "expected_document": "03_privilege_escalation.md",
+    "expected_topic": "privilege escalation"
+  },
+  {
+    "question": "What does it mean when a document viewer spawns a suspicious child process?",
+    "expected_document": "04_suspicious_process_execution.md",
+    "expected_topic": "suspicious process execution"
+  },
+  {
+    "question": "What behavioural signs suggest an insider threat rather than external attack?",
+    "expected_document": "05_insider_threat_indicators.md",
+    "expected_topic": "insider threat"
+  },
+  {
+    "question": "What patterns of malformed input suggest web application probing?",
+    "expected_document": "06_web_application_abuse.md",
+    "expected_topic": "web application abuse"
+  },
+  {
+    "question": "How can you tell that a user's resource access volume is anomalous?",
+    "expected_document": "07_data_access_anomalies.md",
+    "expected_topic": "data access anomalies"
+  },
+  {
+    "question": "What are the signs that data is being exfiltrated to an external destination?",
+    "expected_document": "08_data_exfiltration_concepts.md",
+    "expected_topic": "data exfiltration"
+  },
+  {
+    "question": "Why is it important to separate observed facts from interpretation during an investigation?",
+    "expected_document": "09_incident_response.md",
+    "expected_topic": "incident response"
+  },
+  {
+    "question": "What is the difference between rule-based detection and anomaly-based detection?",
+    "expected_document": "10_security_monitoring.md",
+    "expected_topic": "security monitoring"
+  },
+  {
+    "question": "How does multi-factor authentication reduce the impact of stolen credentials?",
+    "expected_document": "11_defensive_controls.md",
+    "expected_topic": "defensive controls"
+  },
+  {
+    "question": "What should an analyst do after finding a large outbound transfer following bulk document access?",
+    "expected_document": "08_data_exfiltration_concepts.md",
+    "expected_topic": "data exfiltration"
+  }
+]
