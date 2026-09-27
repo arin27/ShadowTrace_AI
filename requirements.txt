@@ -1,0 +1,26 @@
+# ShadowTrace AI — dependencies
+#
+# Core app
+streamlit>=1.36
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+scikit-learn>=1.4
+python-dotenv>=1.0
+
+# RAG — embeddings + vector search (preferred path)
+# If these cannot be installed/downloaded in your environment, the app
+# automatically falls back to a TF-IDF + cosine-similarity retriever
+# (scikit-learn only, no model download required) with an identical
+# interface — see rag/retrieval.py.
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+
+# LLM client (only one of these is required, matching whichever API key
+# you configure in .env; both are optional — the app runs fully offline
+# via a templated fallback if neither is configured)
+anthropic>=0.34
+requests>=2.31
+
+# Reporting
+reportlab>=4.0
